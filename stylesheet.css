@@ -1,0 +1,88 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    height:200px;
+}
+.img-size{
+    height:100px;
+    width:100px;
+    border-radius:80px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.container{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin:30px;
+    margin-left:10px;
+}
+
+.project img {
+    max-width: 100%;
+}
+.button{
+    background-color:rgb(75, 75, 248);
+    padding:5px;
+    border-style:solid;
+    border-width: 0px;
+    border-radius: 6px;
+    color:black;
+}
+
+/* Add more CSS to style your portfolio as needed */
